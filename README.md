@@ -65,7 +65,7 @@ The iron exposes a full serial shell over USB:
 
 Commands: `adc`, `bootloader`, `comms`, `errorlog`, `gpio`, `hwid`, `i2c`, `idle`, `log`, `logging`, `max17205`, `mcu_sn`, `ob`, `otp`, `pdmcudfu`, `pubsub`, `pwrsrc`, `reset`, `rt9490`, `shutdown`, `toolcomms`, `toolinfo`, `ui`, `uptime`, `usbpd`, `version`
 
-`ob` = option bytes, `otp` = one-time programmable memory, `pdmcudfu` = PD MCU DFU (firmware update path for the USB-PD controller), `max17205` and `rt9490` are the fuel gauge and charger ICs talking directly. The JS bundle in `ifixit iron js/` is the web interface that talks to this shell.
+`ob` = option bytes, `otp` = one-time programmable memory, `pdmcudfu` = PD MCU DFU (firmware update path for the USB-PD controller), `max17205` and `rt9490` are the fuel gauge and charger ICs talking directly. 
 
 ---
 

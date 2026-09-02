@@ -6,7 +6,7 @@ Dumping and (possibly) reversing the firmware on the iFixit FixHub soldering iro
 
 ## The Setup
 
-![FixHub PCB wired up](img/fixhubbreakout.png)
+![FixHub PCB wired up](img/fixhubwired.png)
 
 The STLINK-V3MINIE connects to the board through a STDC14-to-SWD adapter PCB. The adapter has the Samtec FTSH-107 header on one end (mates with the STLINK) and breaks out to a 10-pin 1.27mm ribbon cable on the other end. That ribbon plugs into J2 on the FixHub board. The iron has to be powered via USB-C while doing this — don't try to power it from the STLINK 3.3V pin, the board has its own regulators.
 
